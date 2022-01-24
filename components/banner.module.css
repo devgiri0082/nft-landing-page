@@ -1,0 +1,11 @@
+.animate {
+    background: linear-gradient(270deg, #a855f6, #ea4999);
+    background-size: 400% 400%;
+    animation: AnimateColor 30s ease infinite;
+}
+
+@keyframes AnimateColor {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
